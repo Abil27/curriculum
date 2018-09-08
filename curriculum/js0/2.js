@@ -7,8 +7,10 @@
  */
 
 const solution = (a, b, c) => {
-  return 0;
+  return a + b + c;
 };
+
+console.log(`This function will return the sum of 1+2+3 which is ${solution(1,2,3)}`);
 
 module.exports = {
   solution,
