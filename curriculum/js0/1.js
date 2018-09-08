@@ -6,8 +6,12 @@
  */
 
 const solution = (a, b) => {
-  return 0;
+  return  a + b;
 };
+
+test = solution(2, 5);
+
+console.log(test);
 
 module.exports = {
   solution,
